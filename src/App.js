@@ -99,8 +99,8 @@ class App extends Component
 	{
 		return (
 			<div className="App">
-				<HelloStateless name="Krzysiek"/>
-				<HelloStateful name="Kasia"/>
+				<HelloStateless name="Krysol"/>
+				<HelloStateful name="Krysol w/ state"/>
 				{
 					this.state.currentView==='transactions'
 					?
